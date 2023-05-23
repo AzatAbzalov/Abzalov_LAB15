@@ -1,0 +1,25 @@
+﻿Map<char, string> map = new(5);
+map.add('E', "E");
+map.add('A', "A");
+map.add('S', "S");
+map.add('Y', "Y");
+map.add('Q', "Q");
+map.add('U', "U");
+map.add('T', "T");
+map.add('I', "I");
+map.add('O', "O");
+map.add('N', "N");
+Console.WriteLine(map);
+// задание 2
+HashOP<char, string> hash = new();
+hash.Insert('E', "E");
+hash.Insert('A', "A");
+hash.Insert('S', "S");
+hash.Insert('Y', "Y");
+hash.Insert('Q', "Q");
+hash.Insert('U', "U");
+hash.Insert('T', "T");
+hash.Insert('I', "I");
+hash.Insert('O', "O");
+hash.Insert('N', "N");
+Console.WriteLine(hash);
